@@ -61,6 +61,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Пастельные цвета для музыкальной студии
+				pastel: {
+					orange: '#FFB88C',
+					pink: '#FFB3D9', 
+					blue: '#A8D8EA',
+					gray: '#D3D3D3'
 				}
 			},
 			borderRadius: {
