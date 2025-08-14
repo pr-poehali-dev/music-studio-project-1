@@ -11,7 +11,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <Icon name="Music" size={32} />
+              <Icon name="Droplet" size={32} />
               <h1 className="text-2xl font-bold bg-gradient-to-r from-pastel-orange to-pastel-pink bg-clip-text text-transparent">КапЛЯ</h1>
             </div>
             <div className="hidden md:flex gap-6">
