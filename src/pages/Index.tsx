@@ -336,7 +336,7 @@ const Index = () => {
                 </div>
                 <div className="flex justify-between">
                   <span>Суббота - Воскресенье</span>
-                  <span className="text-pastel-orange">10:00 - 20:00</span>
+                  <span className="text-pastel-orange">09:00 - 22:00</span>
                 </div>
               </div>
               <div className="mt-6">
