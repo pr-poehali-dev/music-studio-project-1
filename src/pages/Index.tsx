@@ -138,8 +138,18 @@ const Index = () => {
               { name: "Игорь Морозов", spec: "Укулеле", exp: "5 лет" }
             ].map((teacher, i) => (
               <Card key={i} className="p-6 bg-white/90">
-                <div className="w-16 h-16 bg-gradient-to-br from-pastel-orange to-pastel-pink rounded-full mb-4 flex items-center justify-center">
-                  <Icon name="User" size={32} className="text-white" />
+                <div className="w-16 h-16 rounded-full mb-4 overflow-hidden">
+                  {i === 0 ? (
+                    <img 
+                      src="/img/c26ec1bc-bfd3-47ed-8996-f0c82941cf21.jpg" 
+                      alt={teacher.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-pastel-orange to-pastel-pink flex items-center justify-center">
+                      <Icon name="User" size={32} className="text-white" />
+                    </div>
+                  )}
                 </div>
                 <h4 className="font-bold text-lg">{teacher.name}</h4>
                 <p className="text-pastel-orange font-medium">{teacher.spec}</p>
