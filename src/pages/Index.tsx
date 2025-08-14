@@ -12,9 +12,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Icon name="Music" size={32} />
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-pastel-orange to-pastel-pink bg-clip-text text-transparent">
-                Мелодия
-              </h1>
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-pastel-orange to-pastel-pink bg-clip-text text-transparent">КапЛЯ</h1>
             </div>
             <div className="hidden md:flex gap-6">
               <a href="#home" className="hover:text-pastel-orange transition-colors">Главная</a>
@@ -36,9 +34,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Музыкальная студия
-            <span className="block bg-gradient-to-r from-white to-pastel-blue bg-clip-text text-transparent">
-              "Мелодия"
-            </span>
+            <span className="block bg-gradient-to-r from-white to-pastel-blue bg-clip-text text-transparent">"КапЛЯ"</span>
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
             Откройте для себя мир музыки! Обучение вокалу и игре на инструментах для всех возрастов
