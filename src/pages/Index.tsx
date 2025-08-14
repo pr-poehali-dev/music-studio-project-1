@@ -270,13 +270,15 @@ const Index = () => {
               className="rounded-lg w-full h-64 object-cover"
             />
             <img 
-              src="/img/c5067202-0db7-4f11-b52a-1f8d9db0aeed.jpg" 
+              src="/img/e1a58ef0-b858-44e7-9764-6929536d52a6.jpg" 
               alt="Урок музыки" 
               className="rounded-lg w-full h-64 object-cover"
             />
-            <div className="bg-gradient-to-br from-pastel-orange to-pastel-pink rounded-lg h-64 flex items-center justify-center">
-              <Icon name="Camera" size={48} className="text-white" />
-            </div>
+            <img 
+              src="/img/09ef3bcf-3840-4e2b-bd80-44886fa369c9.jpg" 
+              alt="Здание музыкальной студии" 
+              className="rounded-lg w-full h-64 object-cover"
+            />
             <div className="bg-gradient-to-br from-pastel-pink to-pastel-blue rounded-lg h-64 flex items-center justify-center">
               <Icon name="Music" size={48} className="text-white" />
             </div>
