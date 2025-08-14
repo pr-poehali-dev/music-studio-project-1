@@ -323,7 +323,7 @@ const Index = () => {
 
       {/* Расписание */}
       <section id="schedule" className="py-16 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 opacity-5 bg-slate-800">
           <div className="absolute top-24 left-24">
             <Icon name="Drum" size={24} className="text-white" />
           </div>
