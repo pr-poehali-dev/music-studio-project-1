@@ -63,7 +63,7 @@ const Index = () => {
             <Card className="p-6 bg-white/20 backdrop-blur-sm border-white/30 text-white">
               <Icon name="Music4" size={48} className="mb-4 text-pastel-pink" />
               <h4 className="text-xl font-bold mb-2">Струнные </h4>
-              <p>Гитара, скрипка, виолончель, укулеле. Изучение техники игры, аккордов и мелодий</p>
+              <p>Гитара, скрипка, укулеле. Изучение техники игры, аккордов и мелодий</p>
             </Card>
             <Card className="p-6 bg-white/20 backdrop-blur-sm border-white/30 text-white">
               <Icon name="Piano" size={48} className="mb-4 text-pastel-blue" />
