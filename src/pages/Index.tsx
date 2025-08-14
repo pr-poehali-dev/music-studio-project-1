@@ -295,7 +295,7 @@ const Index = () => {
               <Button className="w-full bg-pastel-orange hover:bg-pastel-orange/90">Выбрать</Button>
             </Card>
             <Card className="p-8 bg-white/30 backdrop-blur-sm border-white/40 text-white scale-105">
-              <h4 className="text-2xl font-bold mb-4 text-pink-500">Стандартный</h4>
+              <h4 className="text-2xl font-bold mb-4 text-pink-400">Стандартный</h4>
               <div className="text-3xl font-bold mb-4">3500₽</div>
               <ul className="space-y-2 mb-6">
                 <li>✓ 8 занятий в месяц</li>
