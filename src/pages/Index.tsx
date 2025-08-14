@@ -362,7 +362,7 @@ const Index = () => {
             <Icon name="Music" size={24} />
             <span className="text-xl font-bold">Мелодия</span>
           </div>
-          <p>&copy; 2024 Музыкальная студия "Мелодия". Все права защищены.</p>
+          <p>© 2024 Музыкальная студия "КапЛЯ". Все права защищены.</p>
         </div>
       </footer>
     </div>
