@@ -153,7 +153,7 @@ const Index = () => {
 
       {/* Программы */}
       <section id="programs" className="py-16 bg-white/10 backdrop-blur-sm relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 opacity-5 bg-slate-900">
           <div className="absolute top-24 left-24">
             <Icon name="Music" size={20} className="text-white" />
           </div>
