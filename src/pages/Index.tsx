@@ -306,7 +306,7 @@ const Index = () => {
               <Button className="w-full bg-pastel-pink hover:bg-pastel-pink/90">Выбрать</Button>
             </Card>
             <Card className="p-8 bg-white/20 backdrop-blur-sm border-white/30 text-white">
-              <h4 className="text-2xl font-bold mb-4 text-pastel-blue">Продвинутый</h4>
+              <h4 className="text-2xl font-bold mb-4 text-sky-300">Продвинутый</h4>
               <div className="text-3xl font-bold mb-4">5000₽</div>
               <ul className="space-y-2 mb-6">
                 <li>✓ Безлимитные занятия</li>
