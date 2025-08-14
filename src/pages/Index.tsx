@@ -217,11 +217,11 @@ const Index = () => {
                   </div>
                   <div className="flex justify-between">
                     <span>Дневные занятия</span>
-                    <span className="text-pastel-orange">14:00 - 17:00</span>
+                    <span className="text-pastel-orange">12:00 - 17:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Вечерние занятия</span>
-                    <span className="text-pastel-orange">18:00 - 21:00</span>
+                    <span className="text-pastel-orange">17:00 - 21:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Мини-концерты</span>
@@ -234,11 +234,11 @@ const Index = () => {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span>Утренние занятия</span>
-                    <span className="text-pastel-blue">10:00 - 13:00</span>
+                    <span className="text-pastel-blue">9:00 - 12:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Дневные занятия</span>
-                    <span className="text-pastel-blue">15:00 - 18:00</span>
+                    <span className="text-pastel-blue">12:00 - 17:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Вечерние занятия</span>
@@ -300,7 +300,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Icon name="Phone" size={20} className="text-pastel-orange" />
-                  <span>+7 (495) 123-45-67</span>
+                  <span>info@kaplya-studio.ru</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Mail" size={20} className="text-pastel-orange" />
