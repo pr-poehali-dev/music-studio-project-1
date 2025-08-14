@@ -116,7 +116,7 @@ const Index = () => {
 
       {/* Инструменты */}
       <section id="instruments" className="py-16 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 opacity-5 bg-slate-900">
           <div className="absolute top-16 right-16">
             <Icon name="Drum" size={26} className="text-white" />
           </div>
