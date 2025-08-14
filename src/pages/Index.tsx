@@ -447,7 +447,7 @@ const Index = () => {
 
       {/* Контакты */}
       <section id="contacts" className="py-16 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 opacity-5 bg-slate-800">
           <div className="absolute top-20 left-24">
             <Icon name="Guitar" size={20} className="text-white" />
           </div>
