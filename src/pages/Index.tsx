@@ -138,7 +138,7 @@ const Index = () => {
               { name: "Игорь Морозов", spec: "Укулеле", exp: "5 лет" }
             ].map((teacher, i) => (
               <Card key={i} className="p-6 bg-white/90">
-                <div className="w-16 h-16 rounded-full mb-4 overflow-hidden">
+                <div className="w-16 h-16 bg-gradient-to-br from-pastel-orange to-pastel-pink flex items-center justify-center px-0 my-0 mx-0 py-0 rounded-full">
                   {i === 0 ? (
                     <img 
                       src="/img/c26ec1bc-bfd3-47ed-8996-f0c82941cf21.jpg" 
@@ -193,7 +193,8 @@ const Index = () => {
                 <li>✓ Безлимитные занятия</li>
                 <li>✓ Личный преподаватель</li>
                 <li>✓ Участие в концертах</li>
-                <li>✓ Мастер-классы</li>
+                <li>✓ Мастер-классы
+✓ Запись композиций</li>
               </ul>
               <Button className="w-full bg-pastel-blue hover:bg-pastel-blue/90">Выбрать</Button>
             </Card>
