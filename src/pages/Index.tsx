@@ -80,7 +80,7 @@ const Index = () => {
           <h3 className="text-4xl font-bold text-center text-white mb-12">Наши инструменты</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { name: "Скрипка", icon: "Violin", description: "Классический струнный инструмент" },
+              { name: "Скрипка", icon: "Music4", description: "Классический струнный инструмент" },
               { name: "Барабаны", icon: "Drum", description: "Полная барабанная установка" },
               { name: "Укулеле", icon: "Guitar", description: "Гавайская четырехструнная гитара" },
               { name: "Гитара", icon: "Guitar", description: "Акустическая и электрогитара" },
