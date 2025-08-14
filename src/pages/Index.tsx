@@ -267,7 +267,7 @@ const Index = () => {
 
       {/* Прайс */}
       <section id="pricing" className="py-16 bg-white/10 backdrop-blur-sm relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 opacity-5 bg-slate-900">
           <div className="absolute top-32 left-20">
             <Icon name="Piano" size={20} className="text-white" />
           </div>
