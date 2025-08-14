@@ -107,7 +107,7 @@ const Index = () => {
           <h3 className="text-4xl font-bold text-center text-white mb-12">Развлекательные программы</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <Card className="p-6 bg-white/20 backdrop-blur-sm border-white/30 text-white">
-              <Icon name="Gamepad2" size={48} className="mb-4 text-pastel-orange" />
+              <Icon name="Dices" size={48} className="mb-4 text-pastel-orange" />
               <h4 className="text-xl font-bold mb-2">Настольные игры</h4>
               <p className="mb-3">Суббота-Воскресенье, 18:00-20:00</p>
               <Badge variant="secondary">СБ-ВС</Badge>
