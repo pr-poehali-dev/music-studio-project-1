@@ -177,10 +177,30 @@ const Index = () => {
                       alt={teacher.name}
                       className="w-full h-full object-cover"
                     />
+                  ) : i === 2 ? (
+                    <img 
+                      src="/img/f8522dc3-5ff8-4b77-82fb-e94ee6f35ba5.jpg" 
+                      alt={teacher.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : i === 3 ? (
+                    <img 
+                      src="/img/34c58dc4-50b2-4201-a2a2-7c0c22d971f9.jpg" 
+                      alt={teacher.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : i === 4 ? (
+                    <img 
+                      src="/img/0e6691c7-df08-48c8-9922-3e438a362c27.jpg" 
+                      alt={teacher.name}
+                      className="w-full h-full object-cover"
+                    />
                   ) : (
-                    <div className="w-full h-full bg-gradient-to-br from-pastel-orange to-pastel-pink flex items-center justify-center">
-                      <Icon name="User" size={32} className="text-white" />
-                    </div>
+                    <img 
+                      src="/img/408d0cc2-abc9-44c5-b063-fc4f78697460.jpg" 
+                      alt={teacher.name}
+                      className="w-full h-full object-cover"
+                    />
                   )}
                 </div>
                 <h4 className="font-bold text-lg">{teacher.name}</h4>
