@@ -68,7 +68,7 @@ const Index = () => {
             <Card className="p-6 bg-white/20 backdrop-blur-sm border-white/30 text-white">
               <Icon name="Piano" size={48} className="mb-4 text-pastel-blue" />
               <h4 className="text-xl font-bold mb-2">Ударные и клавишные </h4>
-              <p>Барабаны, фортепиано, синтезатор. Ритм, координация, гармония и композиция</p>
+              <p>Барабаны, фортепиано. Ритм, координация, гармония и композиция</p>
             </Card>
           </div>
         </div>
