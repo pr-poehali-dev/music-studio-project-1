@@ -331,15 +331,21 @@ const Index = () => {
               alt="Здание музыкальной студии" 
               className="rounded-lg w-full h-64 object-cover"
             />
-            <div className="bg-gradient-to-br from-pastel-pink to-pastel-blue rounded-lg h-64 flex items-center justify-center">
-              <Icon name="Music" size={48} className="text-white" />
-            </div>
-            <div className="bg-gradient-to-br from-pastel-blue to-pastel-orange rounded-lg h-64 flex items-center justify-center">
-              <Icon name="Users" size={48} className="text-white" />
-            </div>
-            <div className="bg-gradient-to-br from-pastel-orange via-pastel-pink to-pastel-blue rounded-lg h-64 flex items-center justify-center">
-              <Icon name="Star" size={48} className="text-white" />
-            </div>
+            <img 
+              src="/img/20206ab5-9af2-4286-a8fa-1abde2e2149a.jpg" 
+              alt="Ребенок играет на скрипке" 
+              className="rounded-lg w-full h-64 object-cover"
+            />
+            <img 
+              src="/img/e924b94d-dbcd-4b8d-a631-17951a499034.jpg" 
+              alt="Дартс" 
+              className="rounded-lg w-full h-64 object-cover"
+            />
+            <img 
+              src="/img/14650204-1a09-4c89-bd9a-4a2c0855601a.jpg" 
+              alt="Караоке" 
+              className="rounded-lg w-full h-64 object-cover"
+            />
           </div>
         </div>
       </section>
