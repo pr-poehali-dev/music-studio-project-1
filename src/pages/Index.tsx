@@ -61,14 +61,14 @@ const Index = () => {
               <p>Постановка голоса, дыхательные техники, работа с микрофоном</p>
             </Card>
             <Card className="p-6 bg-white/20 backdrop-blur-sm border-white/30 text-white">
-              <Icon name="Piano" size={48} className="mb-4 text-pastel-pink" />
-              <h4 className="text-xl font-bold mb-2">Фортепиано</h4>
-              <p>Классическая и современная музыка, импровизация, теория</p>
+              <Icon name="Music4" size={48} className="mb-4 text-pastel-pink" />
+              <h4 className="text-xl font-bold mb-2">Струнные инструменты</h4>
+              <p>Гитара, скрипка, виолончель, укулеле. Изучение техники игры, аккордов и мелодий</p>
             </Card>
             <Card className="p-6 bg-white/20 backdrop-blur-sm border-white/30 text-white">
-              <Icon name="Guitar" size={48} className="mb-4 text-pastel-blue" />
-              <h4 className="text-xl font-bold mb-2">Гитара</h4>
-              <p>Акустическая и электрогитара, различные стили игры</p>
+              <Icon name="Piano" size={48} className="mb-4 text-pastel-blue" />
+              <h4 className="text-xl font-bold mb-2">Ударные и клавишные инструменты</h4>
+              <p>Барабаны, фортепиано, синтезатор. Ритм, координация, гармония и композиция</p>
             </Card>
           </div>
         </div>
