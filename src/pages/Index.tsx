@@ -30,8 +30,34 @@ const Index = () => {
       </nav>
 
       {/* Главная секция */}
-      <section id="home" className="py-20">
-        <div className="container mx-auto px-4 text-center">
+      <section id="home" className="py-20 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-10 left-10">
+            <Icon name="Guitar" size={24} className="text-white" />
+          </div>
+          <div className="absolute top-32 right-20">
+            <Icon name="Piano" size={28} className="text-white" />
+          </div>
+          <div className="absolute top-20 left-1/3">
+            <Icon name="Mic" size={20} className="text-white" />
+          </div>
+          <div className="absolute bottom-32 left-16">
+            <Icon name="Music4" size={22} className="text-white" />
+          </div>
+          <div className="absolute bottom-20 right-16">
+            <Icon name="Drum" size={26} className="text-white" />
+          </div>
+          <div className="absolute top-40 right-1/3">
+            <Icon name="Music" size={18} className="text-white" />
+          </div>
+          <div className="absolute bottom-40 left-1/2">
+            <Icon name="Guitar" size={24} className="text-white" />
+          </div>
+          <div className="absolute top-60 left-20">
+            <Icon name="Piano" size={20} className="text-white" />
+          </div>
+        </div>
+        <div className="container mx-auto px-4 text-center relative z-10">
           <h2 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Музыкальная студия
             <span className="block bg-gradient-to-r from-white to-pastel-blue bg-clip-text text-transparent">"КапЛЯ"</span>
