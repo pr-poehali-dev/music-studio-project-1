@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge"
 
 const Index = () => {
   return (
-    <div className="min-h-screen from-pastel-orange via-pastel-pink to-pastel-blue bg-slate-800">
+    <div className="min-h-screen bg-gradient-to-br from-pastel-orange via-pastel-pink to-pastel-blue">
       {/* Навигация */}
       <nav className="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-white/20">
         <div className="container mx-auto px-4 py-4">
