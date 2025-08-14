@@ -31,7 +31,7 @@ const Index = () => {
 
       {/* Главная секция */}
       <section id="home" className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 opacity-10 bg-neutral-900">
           <div className="absolute top-10 left-10">
             <Icon name="Guitar" size={24} className="text-white" />
           </div>
