@@ -138,10 +138,16 @@ const Index = () => {
               { name: "Игорь Морозов", spec: "Укулеле", exp: "5 лет" }
             ].map((teacher, i) => (
               <Card key={i} className="p-6 bg-white/90">
-                <div className="w-16 h-16 bg-gradient-to-br from-pastel-orange to-pastel-pink flex items-center justify-center px-0 my-0 mx-0 py-0 rounded-full">
+                <div className="w-16 h-16 rounded-full mb-4 overflow-hidden">
                   {i === 0 ? (
                     <img 
                       src="/img/c26ec1bc-bfd3-47ed-8996-f0c82941cf21.jpg" 
+                      alt={teacher.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : i === 1 ? (
+                    <img 
+                      src="/img/1eed8645-cf39-4bda-a16d-0c24e1335b67.jpg" 
                       alt={teacher.name}
                       className="w-full h-full object-cover"
                     />
