@@ -317,8 +317,8 @@ const Index = () => {
           <h3 className="text-4xl font-bold text-center text-white mb-12">Галерея</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <img 
-              src="https://cdn.poehali.dev/files/6f5992b0-d3e9-4b1e-98b3-892bf2b4fb4e.jpg" 
-              alt="Музыкальные инструменты" 
+              src="https://cdn.poehali.dev/files/5c354926-c018-40a4-8746-6b7bdee1f6f3.jpg" 
+              alt="Коллекция музыкальных инструментов" 
               className="rounded-lg w-full h-64 object-cover"
             />
             <img 
