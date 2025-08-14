@@ -80,12 +80,12 @@ const Index = () => {
           <h3 className="text-4xl font-bold text-center text-white mb-12">Наши инструменты</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { name: "Скрипка", icon: "Music4", description: "Классический струнный инструмент" },
+              { name: "Скрипка", icon: "Violin", description: "Классический струнный инструмент" },
               { name: "Барабаны", icon: "Drum", description: "Полная барабанная установка" },
               { name: "Укулеле", icon: "Guitar", description: "Гавайская четырехструнная гитара" },
-              { name: "Синтезатор", icon: "Piano", description: "Электронное фортепиано" },
-              { name: "Саксофон", icon: "Music2", description: "Духовой инструмент" },
-              { name: "Флейта", icon: "Music3", description: "Деревянный духовой инструмент" }
+              { name: "Гитара", icon: "Guitar", description: "Акустическая и электрогитара" },
+              { name: "Фортепиано", icon: "Piano", description: "Классическое пианино и рояль" },
+              { name: "Ваш голос", icon: "Mic", description: "Самый совершенный инструмент" }
             ].map((instrument, i) => (
               <Card key={i} className="p-4 bg-white/90 hover:bg-white transition-colors">
                 <Icon name={instrument.icon} size={40} className="mb-3 text-pastel-orange" />
