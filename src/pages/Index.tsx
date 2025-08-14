@@ -241,6 +241,10 @@ const Index = () => {
                     <span className="text-pastel-blue">15:00 - 18:00</span>
                   </div>
                   <div className="flex justify-between">
+                    <span>Вечерние занятия</span>
+                    <span className="text-pastel-blue">18:00 - 22:00</span>
+                  </div>
+                  <div className="flex justify-between">
                     <span>Настольные игры</span>
                     <span className="text-pastel-pink">18:00 - 20:00</span>
                   </div>
