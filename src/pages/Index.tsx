@@ -193,8 +193,8 @@ const Index = () => {
                 <li>✓ Безлимитные занятия</li>
                 <li>✓ Личный преподаватель</li>
                 <li>✓ Участие в концертах</li>
-                <li>✓ Мастер-классы
-✓ Запись композиций</li>
+                <li>✓ Мастер-классы</li>
+                <li>✓ Запись композиций</li>
               </ul>
               <Button className="w-full bg-pastel-blue hover:bg-pastel-blue/90">Выбрать</Button>
             </Card>
