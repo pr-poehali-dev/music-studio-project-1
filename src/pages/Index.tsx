@@ -77,7 +77,21 @@ const Index = () => {
       </section>
 
       {/* Обучение */}
-      <section id="education" className="py-16 bg-white/10 backdrop-blur-sm">
+      <section id="education" className="py-16 bg-white/10 backdrop-blur-sm relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-20 left-16">
+            <Icon name="Guitar" size={20} className="text-white" />
+          </div>
+          <div className="absolute top-40 right-24">
+            <Icon name="Piano" size={24} className="text-white" />
+          </div>
+          <div className="absolute bottom-32 left-1/4">
+            <Icon name="Mic" size={18} className="text-white" />
+          </div>
+          <div className="absolute bottom-20 right-20">
+            <Icon name="Music4" size={22} className="text-white" />
+          </div>
+        </div>
         <div className="container mx-auto px-4">
           <h3 className="text-4xl font-bold text-center text-white mb-12">Направления обучения</h3>
           <div className="grid md:grid-cols-3 gap-6">
@@ -101,7 +115,21 @@ const Index = () => {
       </section>
 
       {/* Инструменты */}
-      <section id="instruments" className="py-16">
+      <section id="instruments" className="py-16 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-16 right-16">
+            <Icon name="Drum" size={26} className="text-white" />
+          </div>
+          <div className="absolute top-52 left-20">
+            <Icon name="Guitar" size={22} className="text-white" />
+          </div>
+          <div className="absolute bottom-24 right-1/3">
+            <Icon name="Piano" size={20} className="text-white" />
+          </div>
+          <div className="absolute bottom-40 left-1/2">
+            <Icon name="Mic" size={18} className="text-white" />
+          </div>
+        </div>
         <div className="container mx-auto px-4">
           <h3 className="text-4xl font-bold text-center text-white mb-12">Наши инструменты</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -124,7 +152,18 @@ const Index = () => {
       </section>
 
       {/* Программы */}
-      <section id="programs" className="py-16 bg-white/10 backdrop-blur-sm">
+      <section id="programs" className="py-16 bg-white/10 backdrop-blur-sm relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-24 left-24">
+            <Icon name="Music" size={20} className="text-white" />
+          </div>
+          <div className="absolute top-48 right-16">
+            <Icon name="Guitar" size={24} className="text-white" />
+          </div>
+          <div className="absolute bottom-28 left-1/3">
+            <Icon name="Piano" size={18} className="text-white" />
+          </div>
+        </div>
         <div className="container mx-auto px-4">
           <h3 className="text-4xl font-bold text-center text-white mb-12">Развлекательные программы</h3>
           <div className="grid md:grid-cols-3 gap-6">
@@ -151,7 +190,21 @@ const Index = () => {
       </section>
 
       {/* Преподаватели */}
-      <section id="teachers" className="py-16">
+      <section id="teachers" className="py-16 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-20 right-20">
+            <Icon name="Music4" size={22} className="text-white" />
+          </div>
+          <div className="absolute top-56 left-16">
+            <Icon name="Drum" size={20} className="text-white" />
+          </div>
+          <div className="absolute bottom-32 right-1/4">
+            <Icon name="Guitar" size={24} className="text-white" />
+          </div>
+          <div className="absolute bottom-16 left-1/3">
+            <Icon name="Mic" size={18} className="text-white" />
+          </div>
+        </div>
         <div className="container mx-auto px-4">
           <h3 className="text-4xl font-bold text-center text-white mb-12">Наши преподаватели</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -213,7 +266,21 @@ const Index = () => {
       </section>
 
       {/* Прайс */}
-      <section id="pricing" className="py-16 bg-white/10 backdrop-blur-sm">
+      <section id="pricing" className="py-16 bg-white/10 backdrop-blur-sm relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-32 left-20">
+            <Icon name="Piano" size={20} className="text-white" />
+          </div>
+          <div className="absolute top-20 right-24">
+            <Icon name="Guitar" size={22} className="text-white" />
+          </div>
+          <div className="absolute bottom-40 left-1/4">
+            <Icon name="Music" size={18} className="text-white" />
+          </div>
+          <div className="absolute bottom-24 right-20">
+            <Icon name="Mic" size={20} className="text-white" />
+          </div>
+        </div>
         <div className="container mx-auto px-4">
           <h3 className="text-4xl font-bold text-center text-white mb-12">Стоимость обучения</h3>
           <div className="grid md:grid-cols-3 gap-6">
@@ -255,7 +322,21 @@ const Index = () => {
       </section>
 
       {/* Расписание */}
-      <section id="schedule" className="py-16">
+      <section id="schedule" className="py-16 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-24 left-24">
+            <Icon name="Drum" size={24} className="text-white" />
+          </div>
+          <div className="absolute top-40 right-20">
+            <Icon name="Music4" size={20} className="text-white" />
+          </div>
+          <div className="absolute bottom-28 left-1/3">
+            <Icon name="Guitar" size={22} className="text-white" />
+          </div>
+          <div className="absolute bottom-20 right-1/4">
+            <Icon name="Piano" size={18} className="text-white" />
+          </div>
+        </div>
         <div className="container mx-auto px-4">
           <h3 className="text-4xl font-bold text-center text-white mb-12">Расписание</h3>
           <Card className="p-8 bg-white/90 max-w-4xl mx-auto">
@@ -312,7 +393,21 @@ const Index = () => {
       </section>
 
       {/* Галерея */}
-      <section id="gallery" className="py-16 bg-white/10 backdrop-blur-sm">
+      <section id="gallery" className="py-16 bg-white/10 backdrop-blur-sm relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-28 left-20">
+            <Icon name="Music" size={20} className="text-white" />
+          </div>
+          <div className="absolute top-16 right-28">
+            <Icon name="Guitar" size={24} className="text-white" />
+          </div>
+          <div className="absolute bottom-36 left-1/4">
+            <Icon name="Mic" size={18} className="text-white" />
+          </div>
+          <div className="absolute bottom-20 right-16">
+            <Icon name="Piano" size={22} className="text-white" />
+          </div>
+        </div>
         <div className="container mx-auto px-4">
           <h3 className="text-4xl font-bold text-center text-white mb-12">Галерея</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -351,7 +446,21 @@ const Index = () => {
       </section>
 
       {/* Контакты */}
-      <section id="contacts" className="py-16">
+      <section id="contacts" className="py-16 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-20 left-24">
+            <Icon name="Guitar" size={20} className="text-white" />
+          </div>
+          <div className="absolute top-44 right-20">
+            <Icon name="Piano" size={22} className="text-white" />
+          </div>
+          <div className="absolute bottom-32 left-1/3">
+            <Icon name="Drum" size={18} className="text-white" />
+          </div>
+          <div className="absolute bottom-16 right-1/4">
+            <Icon name="Music4" size={20} className="text-white" />
+          </div>
+        </div>
         <div className="container mx-auto px-4">
           <h3 className="text-4xl font-bold text-center text-white mb-12">Контакты</h3>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
