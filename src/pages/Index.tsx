@@ -521,7 +521,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center text-white">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Icon name="Music" size={24} />
-            <span className="text-xl font-bold">Мелодия</span>
+            <span className="text-xl font-bold">КапЛЯ</span>
           </div>
           <p>© 2024 Музыкальная студия "КапЛЯ". Все права защищены.</p>
         </div>
